@@ -8,6 +8,7 @@ body, h1 {
 body {
   font-family: Arial, sans-serif;
   background-color: #000; /* Set the background color to black */
+  background-image: url("milkyway_backg.jpg");
   color: #fff; /* Text color for contrast */
   text-align: center;
 }
