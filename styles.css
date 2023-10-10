@@ -1,0 +1,60 @@
+/* Reset some default styles for the whole document */
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Set the background color to black */
+  color: #fff; /* Text color for contrast */
+  text-align: center;
+}
+
+/* Style the header */
+h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #000; /* Dark background color for the universe effect */
+  color: #fff; /* Text color for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table header row */
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center; /* Center-align the table headers */
+  font-weight: bold; /* Make the text inside th elements bold */
+}
+
+/* Style the table data cells */
+td {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold; /* Make the text inside td elements bold */
+}
+
+/* Alternate row background colors for better readability */
+tr:nth-child(even) {
+  background-color: #111; /* Slightly lighter color for even rows */
+}
+
+/* Style the images */
+img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
